@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div class="main-body">
+        <div class="calc">
+            <div class="output">
+                <input type="text" id="screen">
+            </div>
+            <div class="buttons">
+                <button class="btn"
+                    onclick="clearScr()">Clear</button>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                <button class="btn" onclick="self.close()">Off</button>
+                <div class="row">
+                    <button class="btn" onclick="btClick(7)">7</button>
+                    <button class="btn" onclick="btClick(8)">8</button>
+                    <button class="btn" onclick="btClick(9)">9</button>
+                    <button class="btn" onclick="btClick('/')">/</button>
+                </div>
+                <div class="row">
+                    <button class="btn" onclick="btclick(4)">4</button>
+                    <button class="btn" onclick="btClick(5)">5</button>
+                    <button class="btn" onclick="btClick(6)">6</button>
+                    <button class="btn" onclick="btClick('*')">x</button>
+                </div>
+                <div class="row">
+                    <button class="btn" onclick="btClick(1)">1</button>
+                    <button class="btn" onclick="btClick(2)">2</button>
+                    <button class="btn" onclick="btClick(3)">3</button>
+                    <button class="btn" onclick="btClick('+')">+</button>
+
+                </div>
+                <div class="row">
+                    <button class="btn" onclick="btClick('.')">.</button>
+                    <button class="btn" onclick="btClick(0)">0</button>
+                    <button class="btn" onclick="btClick('-')">-</button>
+                    <button class="btn" onclick="eqClick()">=</button>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
